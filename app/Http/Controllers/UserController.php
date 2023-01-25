@@ -53,6 +53,14 @@ class UserController extends Controller
         if (! $user = User::find($id)) {
             return redirect()->route('users.index');
         }
-        dd($request->all());
+
+        $data = $request->only('name', 'email');
+        if ($request->password) {
+            $data['password'] = bcrypt($request->password);
+        }
+
+        $user->update($data);
+
+        return redirect()->route('users.index');
     }
 }
