@@ -83,3 +83,5 @@ DocumentRoot /var/www/trilha_laravel_001/public
 2. Cada um que for seguir a trilha, deverá criar uma branch com seu nome de usuário no GitHub
 * Ex.: git checkout -b carvalhojccs
 3. Dentro da sua branch, seguir os commits da trilha
+
+**Obs.: O último commit do vídeo deverá ser um com o número do vídeo (Ex.: git commit -m "07")**
