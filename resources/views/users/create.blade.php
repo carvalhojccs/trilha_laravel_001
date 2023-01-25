@@ -2,7 +2,7 @@
 @section('title', 'Novo Usuário')
 @section('content')
     <h1>Novo Usuário</h1>
-    <form action="#" method="POST">
+    <form action="{{ route('users.store') }}" method="POST">
         @csrf
         <input type="text" name="name" placeholder="Nome">
         <input type="email" name="email" placeholder="E-mail">
