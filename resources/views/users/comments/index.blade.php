@@ -5,7 +5,7 @@
 @section('content')
     <h1 class="text-2xl font-semibold leading-tigh py-2">
         Comentários do Usuário {{ $user->name }}
-        <a href="#" class="bg-blue-900 rounded-full text-white px-4 text-sm">+</a>
+        <a href="{{ route('comments.create', $user->id) }}" class="bg-blue-900 rounded-full text-white px-4 text-sm">+</a>
     </h1>
 
     <form action="{{ route('comments.index', $user->id) }}" method="get" class="py-5">
@@ -39,8 +39,7 @@
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">{{ $comment->visible ? 'SIM' : 'NÃO' }}
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                        <a href="{{ route('comments.edit', ['user' => $user->id, 'id' => $comment->id]) }}"
-                            class="bg-green-200 rounded-full py-2 px-6">Editar</a>
+                        <a href="{{-- route('comments.edit', ['user' => $user->id, 'id' => $comment->id]) --}}" class="bg-green-200 rounded-full py-2 px-6">Editar</a>
                     </td>
                 </tr>
             @endforeach

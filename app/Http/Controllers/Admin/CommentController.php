@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Comment;
 use App\Models\User;
+use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
@@ -26,6 +27,29 @@ class CommentController extends Controller
 
         $comments = $user->comments()->get();
 
-        return view('users.comment.index', compact('user', 'comments'));
+        return view('users.comments.index', compact('user', 'comments'));
+    }
+
+    public function create($userId)
+    {
+        if (! $user = $this->user->find($userId)) {
+            return redirect()->back();
+        }
+
+        return view('users.comments.create', compact('user'));
+    }
+
+    public function store(Request $request, $userId)
+    {
+        if (! $user = $this->user->find($userId)) {
+            return redirect()->back();
+        }
+
+        $user->comments()->create([
+            'body' => $request->body,
+            'visible' => isset($request->visible),
+        ]);
+
+        return redirect()->route('comments.index', $user->id);
     }
 }
