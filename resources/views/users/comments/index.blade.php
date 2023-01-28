@@ -39,7 +39,8 @@
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">{{ $comment->visible ? 'SIM' : 'NÃO' }}
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                        <a href="{{-- route('comments.edit', ['user' => $user->id, 'id' => $comment->id]) --}}" class="bg-green-200 rounded-full py-2 px-6">Editar</a>
+                        <a href="{{ route('comments.edit', ['user' => $user->id, 'id' => $comment->id]) }}"
+                            class="bg-green-200 rounded-full py-2 px-6">Editar</a>
                     </td>
                 </tr>
             @endforeach

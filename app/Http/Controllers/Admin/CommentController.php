@@ -52,4 +52,29 @@ class CommentController extends Controller
 
         return redirect()->route('comments.index', $user->id);
     }
+
+    public function edit($user_id, $id)
+    {
+        if (! $comment = $this->comment->find($id)) {
+            return redirect()->back();
+        }
+
+        $user = $comment->user;
+
+        return view('users.comments.edit', compact('user', 'comment'));
+    }
+
+    public function update(Request $request, $id)
+    {
+        if (! $comment = $this->comment->find($id)) {
+            return redirect()->back();
+        }
+
+        $comment->update([
+            'body' => $request->body,
+            'visible' => isset($request->visible),
+        ]);
+
+        return redirect()->route('comments.index', $comment->user_id);
+    }
 }
