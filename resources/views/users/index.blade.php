@@ -71,9 +71,9 @@
     </table>
 
     <div class="py-4">
-        {{-- $users->appends([
+        {{ $users->appends([
                 'search' => request()->get('search', ''),
-            ])->links() --}}
+            ])->links() }}
     </div>
 
 @endsection

@@ -49,7 +49,7 @@ class User extends Authenticatable
             $query->orWhere('name', 'ILIKE', "%{$search}%");
         })
         ->with('comments')
-        ->get();
+        ->paginate(1);
 
         return $users;
     }
