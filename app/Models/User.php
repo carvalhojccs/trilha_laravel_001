@@ -47,7 +47,9 @@ class User extends Authenticatable
         $users = $this->where(function ($query) use ($search) {
             $query->where('email', $search);
             $query->orWhere('name', 'ILIKE', "%{$search}%");
-        })->get();
+        })
+        ->with('comments')
+        ->get();
 
         return $users;
     }
