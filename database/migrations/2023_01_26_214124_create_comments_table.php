@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained('users');
             $table->text('body');
-            $table->boolean('visible')->default('true');
+            $table->boolean('visible')->default(true);
             $table->timestamps();
         });
     }
