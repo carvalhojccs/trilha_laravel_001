@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="326"
+   height="643"
+   fill="none"
+   version="1.1"
+   id="svg258"
+   sodipodi:docname="app.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview260"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.5692068"
+     inkscape:cx="173.01059"
+     inkscape:cy="111.12379"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg258" />
+  <rect
+     width="326"
+     height="643"
+     rx="25"
+     fill="#171717"
+     id="rect132" />
+  <g
+     filter="url(#a)"
+     id="g136">
+    <ellipse
+       rx="42.5"
+       ry="43.5"
+       transform="matrix(-1 0 0 1 162.5 293.5)"
+       fill="#F59E0B"
+       id="ellipse134" />
+  </g>
+  <g
+     filter="url(#b)"
+     id="g144">
+    <circle
+       cx="163"
+       cy="293"
+       r="45"
+       fill="#171717"
+       id="circle142" />
+  </g>
+  <path
+     d="M158.326 300h9.346-9.346ZM163 272v2-2Zm12.728 5.272-1.414 1.414 1.414-1.414ZM181 290h-2 2Zm-34 0h-2 2Zm4.686-11.314-1.414-1.414 1.414 1.414Zm4.242 18.386a10.004 10.004 0 0 1-2.167-10.898 10 10 0 0 1 14.794-4.487 10 10 0 0 1 1.517 15.385l-1.096 1.094a6.751 6.751 0 0 0-1.976 4.772V304a3.995 3.995 0 0 1-1.172 2.828 3.995 3.995 0 0 1-5.656 0A3.995 3.995 0 0 1 159 304v-1.062c0-1.79-.712-3.508-1.976-4.772l-1.096-1.094Z"
+     stroke="#FBBF24"
+     stroke-width="4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path146" />
+  <g
+     filter="url(#c)"
+     id="g150">
+    <path
+       d="M127.684 370.034a84.502 84.502 0 0 1-9.537-147.832 84.497 84.497 0 0 1 86.022-2.771A84.492 84.492 0 0 1 248 293.5"
+       stroke="#FBBF24"
+       stroke-width="8"
+       id="path148" />
+  </g>
+  <circle
+     r="4.5"
+     transform="matrix(-1 0 0 1 92.5 79.5)"
+     fill="#FBBF24"
+     id="circle154" />
+  <circle
+     r="4.5"
+     transform="matrix(-1 0 0 1 92.5 91.5)"
+     fill="#FBBF24"
+     id="circle156" />
+  <circle
+     r="4.5"
+     transform="matrix(-1 0 0 1 80.5 91.5)"
+     fill="#FBBF24"
+     id="circle158" />
+  <g
+     filter="url(#d)"
+     id="g162">
+    <circle
+       cx="247.5"
+       cy="295.5"
+       r="7.5"
+       fill="#FBBF24"
+       id="circle160" />
+  </g>
+  <defs
+     id="defs256">
+    <filter
+       id="a"
+       x="56"
+       y="186"
+       width="213"
+       height="215"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood164" />
+      <feBlend
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend166" />
+      <feGaussianBlur
+         stdDeviation="32"
+         result="effect1_foregroundBlur_2_36"
+         id="feGaussianBlur168" />
+    </filter>
+    <filter
+       id="b"
+       x="80"
+       y="235"
+       width="166"
+       height="166"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood171" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix173" />
+      <feMorphology
+         radius="12"
+         in="SourceAlpha"
+         result="effect1_dropShadow_2_36"
+         id="feMorphology175" />
+      <feOffset
+         dy="25"
+         id="feOffset177" />
+      <feGaussianBlur
+         stdDeviation="25"
+         id="feGaussianBlur179" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite181" />
+      <feColorMatrix
+         values="0 0 0 0 0.984314 0 0 0 0 0.74902 0 0 0 0 0.141176 0 0 0 0.25 0"
+         id="feColorMatrix183" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_2_36"
+         id="feBlend185" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow_2_36"
+         result="shape"
+         id="feBlend187" />
+    </filter>
+    <filter
+       id="c"
+       x="55"
+       y="205"
+       width="217"
+       height="208.657"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood190" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix192" />
+      <feMorphology
+         radius="5"
+         in="SourceAlpha"
+         result="effect1_dropShadow_2_36"
+         id="feMorphology194" />
+      <feOffset
+         dy="20"
+         id="feOffset196" />
+      <feGaussianBlur
+         stdDeviation="12.5"
+         id="feGaussianBlur198" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite200" />
+      <feColorMatrix
+         values="0 0 0 0 0.984314 0 0 0 0 0.74902 0 0 0 0 0.141176 0 0 0 0.2 0"
+         id="feColorMatrix202" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_2_36"
+         id="feBlend204" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix206" />
+      <feMorphology
+         radius="6"
+         in="SourceAlpha"
+         result="effect2_dropShadow_2_36"
+         id="feMorphology208" />
+      <feOffset
+         dy="8"
+         id="feOffset210" />
+      <feGaussianBlur
+         stdDeviation="5"
+         id="feGaussianBlur212" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite214" />
+      <feColorMatrix
+         values="0 0 0 0 0.984314 0 0 0 0 0.74902 0 0 0 0 0.141176 0 0 0 0.2 0"
+         id="feColorMatrix216" />
+      <feBlend
+         in2="effect1_dropShadow_2_36"
+         result="effect2_dropShadow_2_36"
+         id="feBlend218" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect2_dropShadow_2_36"
+         result="shape"
+         id="feBlend220" />
+    </filter>
+    <filter
+       id="d"
+       x="220"
+       y="288"
+       width="55"
+       height="55"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood223" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix225" />
+      <feMorphology
+         radius="5"
+         in="SourceAlpha"
+         result="effect1_dropShadow_2_36"
+         id="feMorphology227" />
+      <feOffset
+         dy="20"
+         id="feOffset229" />
+      <feGaussianBlur
+         stdDeviation="12.5"
+         id="feGaussianBlur231" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite233" />
+      <feColorMatrix
+         values="0 0 0 0 0.984314 0 0 0 0 0.74902 0 0 0 0 0.141176 0 0 0 0.2 0"
+         id="feColorMatrix235" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_2_36"
+         id="feBlend237" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix239" />
+      <feMorphology
+         radius="6"
+         in="SourceAlpha"
+         result="effect2_dropShadow_2_36"
+         id="feMorphology241" />
+      <feOffset
+         dy="8"
+         id="feOffset243" />
+      <feGaussianBlur
+         stdDeviation="5"
+         id="feGaussianBlur245" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite247" />
+      <feColorMatrix
+         values="0 0 0 0 0.984314 0 0 0 0 0.74902 0 0 0 0 0.141176 0 0 0 0.2 0"
+         id="feColorMatrix249" />
+      <feBlend
+         in2="effect1_dropShadow_2_36"
+         result="effect2_dropShadow_2_36"
+         id="feBlend251" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect2_dropShadow_2_36"
+         result="shape"
+         id="feBlend253" />
+    </filter>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="opacity:1;fill:#fbbf24;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:fill markers stroke"
+     x="79.814896"
+     y="116.83249"
+     id="text1248"><tspan
+       sodipodi:role="line"
+       id="tspan1246"
+       x="79.814896"
+       y="116.83249" /></text>
+  <text
+     xml:space="preserve"
+     style="opacity:1;fill:#fbbf24;fill-opacity:1;stroke:#0000ff;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     x="84.356087"
+     y="114.35547"
+     id="text1649"><tspan
+       sodipodi:role="line"
+       id="tspan1647"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="opacity:1;fill:#fbbf24;fill-opacity:1;stroke:#fbbf24;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     x="86.420265"
+     y="112.2913"
+     id="text1653"><tspan
+       sodipodi:role="line"
+       id="tspan1651"
+       x="86.420265"
+       y="112.2913" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16.3061px;opacity:1;fill:#fbbf24;fill-opacity:1;stroke:#fbbf24;stroke-width:0.407652;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     x="102.24521"
+     y="92.258369"
+     id="text1709"
+     transform="scale(0.9857257,1.014481)"><tspan
+       sodipodi:role="line"
+       id="tspan1707"
+       x="102.24521"
+       y="92.258369"
+       style="stroke-width:0.407652">TrilhaLaravel - 001</tspan></text>
+</svg>
